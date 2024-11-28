@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit Feedback</title>
+  <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+
+  <header>
+    <h1>Submit Your Feedback</h1>
+  </header>
+
+  <center>
+  <form id="feedback-form">
+    <label for="name">Your Name</label><br>
+    <input type="text" name="name" placeholder="Your Name" required><br><br>
+
+    <label for="name">Your Email</label><br>
+    <input type="email" name="email" placeholder="Your Email" required><br><br>
+
+    <label for="name">Select Branch</label><br>
+    <select name="branch" required>
+    <option></option>
+      <option value="ADITYA VIDYASHRAM -RESIDENTIAL SCHOOL">ADITYA VIDYASHRAM -RESIDENTIAL SCHOOL</option>
+      <option value="ADITYA VIDYASHRAM - GURUGRAM">ADITYA VIDYASHRAM - GURUGRAM B1</option>
+      <option value="ADITYA VIDYASHRAM - VEDAM CAMPUS">ADITYA VIDYASHRAM - VEDAM CAMPUS</option>
+      <option value="ADITYA VIDYASHRAM - GURUGRAM CAMPUS - E TECHNO SCHOOL">ADITYA VIDYASHRAM - GURUGRAM CAMPUS - E TECHNO SCHOOL</option>
+      <option value="ADITYA'S VIDYASHRAM HIGHER SEC. SCHOOL">ADITYA'S VIDYASHRAM HIGHER SEC. SCHOOL</option>
+      <option value="ADITYA VIDYASHRAM - VIVEKAM CAMPUS">ADITYA VIDYASHRAM - VIVEKAM CAMPUS</option>
+    </select>
+    <br><br>
+
+    <label for="name">Message</label><br>
+    <textarea name="feedback" placeholder="Your Feedback" required></textarea>
+    <br><br>
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+</center>
+
+  <footer>
+    <button onclick="window.location.href='index.html'">Back to Home</button>
+  </footer>
+  <br><br>
+
+  <footer>
+    <p style="color: grey;">&copy; Nithish 2024 <br><br>MIT Press Licensed</p>
+  </footer>
+
+  <script src="feedback.js"></script>
+</body>
+</html>

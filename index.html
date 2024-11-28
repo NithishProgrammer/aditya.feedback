@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Feedback</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Aditya Vidyashram School Feedback</h1>
+  </header>
+
+  <!-- Dropdown to filter feedback by branch -->
+  <div id="filter-container">
+    <label for="branch-filter">Filter by Branch: </label>
+    <select id="branch-filter">
+      <option value="all">All Branches</option>
+      <option value="ADITYA VIDYASHRAM -RESIDENTIAL SCHOOL">ADITYA VIDYASHRAM -RESIDENTIAL SCHOOL</option>
+      <option value="ADITYA VIDYASHRAM - GURUGRAM">ADITYA VIDYASHRAM - GURUGRAM</option>
+      <option value="ADITYA VIDYASHRAM - VEDAM CAMPUS">ADITYA VIDYASHRAM - VEDAM CAMPUS</option>
+      <option value="ADITYA VIDYASHRAM - GURUGRAM CAMPUS - E TECHNO SCHOOL">ADITYA VIDYASHRAM - GURUGRAM CAMPUS - E TECHNO SCHOOL</option>
+      <option value="ADITYA'S VIDYASHRAM HIGHER SEC. SCHOOL">ADITYA'S VIDYASHRAM HIGHER SEC. SCHOOL</option>
+      <option value="ADITYA VIDYASHRAM - VIVEKAM CAMPUS">ADITYA VIDYASHRAM - VIVEKAM CAMPUS</option>
+    </select>
+  </div>
+  <br>
+  <footer>
+    <button onclick="window.location.href='feedback.html'">Write Feedback</button>
+  </footer>
+  <br><br>
+
+  <!-- Display reviews -->
+  <div id="reviews-container"></div>
+
+  <br><br>
+
+  <footer>
+    <p style="color: grey;">&copy; Nithish 2024 <br><br>MIT Press Licensed</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

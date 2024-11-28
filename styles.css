@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+  }
+  
+  header {
+    background-color: #E97451;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #filter-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  #reviews-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .review {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 10px #CC7722;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #CC7722;
+    box-shadow: 5px 5px #FF5733;
+  }
+  
+  select{
+     padding: 10px;
+    border: 1px solid rgb(194, 102, 50);
+    border-radius: 10px;
+    width: 80%;
+  }
